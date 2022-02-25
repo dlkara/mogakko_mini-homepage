@@ -1,0 +1,96 @@
+.mid-bottom {
+    padding: 10px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+.guestbook_post {
+    width: 100%;
+
+    margin-bottom: 10px;
+    
+    background-color: whitesmoke;
+
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+
+.guestbook_no, .guestbook_name, .guestbook_date {
+    display: inline-block;
+
+    font-family: 'GmarketSansMedium';
+}
+
+.guestbook_no {
+    padding: 10px 5px 10px 10px;
+
+    font-size: small;
+}
+
+.guestbook_name {
+    padding: 10px 0;
+
+    color: rgb(70, 70, 70);
+    
+    font-family: 'GmarketSansBold';
+}
+
+.guestbook_date {
+    padding: 10px 10px 10px 5px;
+
+    color: gray;
+
+    font-size: small;
+}
+
+.guestbook_content {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: white;
+}
+
+.guestbook_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 350px;
+    height: 150px;
+
+    margin-right: 10px;
+
+    background-size: cover;
+    background-color: aqua;
+}
+
+.bg1 {
+    background-image: url("./images/guestbook_background1.jpeg");
+}
+.bg2 {
+    background-image: url("./images/guestbook_background2.png");
+}
+.bg3 {
+    width: 430px;
+    background-image: url("./images/guestbook_background3.jpeg");
+}
+.bg4 {
+    width: 305px;
+    background-image: url("./images/guestbook_background4.jpeg");
+}
+
+.guestbook_img > img {
+    width: 60%;
+
+    filter: drop-shadow(0px 5px white);
+}
+.bg3 > img {
+    width: 70%;
+}
